@@ -1,0 +1,99 @@
+/* Volledige wrapper */
+.global-nav-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* verticaal centreren */
+    align-items: center;     /* horizontaal centreren */
+    /* min-height: 100vh;        altijd minstens de hoogte van het scherm */
+    width: 100%;
+    padding: 0.75rem 1rem;
+    box-sizing: border-box;  /* voorkomt dat padding de layout breekt */
+    text-align: center;      /* tekst centreren */
+}
+
+/* Navigatie */
+.global-nav {
+	display: flex; 
+    flex-wrap: wrap;
+    justify-content: center; /* centreren binnen de container */
+    gap: .75rem; 
+    margin-bottom: 0rem; 
+}
+
+/* Navigatielinks */
+.global-nav a {
+    color: #EDE1D1 !important;
+    background: #6A704C !important;
+    border-radius: 30px;
+    padding: 0.6rem 1.2rem;
+    font-family: "Aboreto", sans-serif;
+    font-size: 1.1rem;
+    transition: all 0.25s ease;
+    text-align: center;
+}
+
+.global-nav a:hover,
+.global-nav a.active {
+    background: #fff !important;
+    color: #6A704C !important;
+    border-color: #fff !important;
+}
+
+/* Uitlegtekst */
+.global-nav-uitleg {
+    all: unset;
+    display: block;
+    max-width: 900px;
+    color: #6A704C !important;
+    text-align: center;
+    line-height: 1.4;
+    transition: all 0.25s ease;
+    margin: 0 auto;
+}
+
+.global-nav-uitleg a {
+    all: unset;
+    cursor: pointer;
+    background: transparent !important;
+    transition: all 0.25s ease;
+}
+
+.global-nav-uitleg a:hover {
+    color: #EDE1D1 !important;
+    background: #6A704C !important;
+    border-radius: 30px;
+    padding: 0.6rem 1.2rem;
+}
+
+.global-nav-uitleg-h2 {
+    font-size: 1.2rem;
+    font-family: "Aboreto", Sans-serif !important;
+    margin-top: 2rem;
+    margin-bottom: 1rem !important;
+}
+.global-nav-uitleg-p-hoofd {
+    font-size: 1rem;
+    color: #6A704C !important;
+    margin: 0 !important;
+}
+.global-nav-p {
+    white-space: pre-line;
+    margin-bottom: 1.5rem;
+    padding: 0rem 0rem;
+}
+
+/* Mobiele optimalisatie */
+@media (max-width: 600px) {
+    .global-nav-body {
+        padding: 1rem;
+    }
+
+    .global-nav a {
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .global-nav-uitleg {
+        font-size: 1.2rem;
+    }
+}

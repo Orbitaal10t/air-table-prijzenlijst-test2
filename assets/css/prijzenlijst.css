@@ -1,0 +1,74 @@
+
+.diersoort {
+	font-family: "Allison", Sans-serif !important; 
+    font-size: 64px !important;
+	color: var(--e-global-color-text);
+}
+
+.prijzenlijst-nav { 
+	display:flex; 
+    flex-wrap:wrap;
+    gap:.75rem; 
+    margin-bottom:2rem; 
+}
+
+.prijzenlijst-nav a { 
+	background:#6A704C;
+    color:#EDE1D1 !important;
+    padding:.4rem .9rem;
+    border-radius:20px;
+    text-decoration:none; 
+    transition: all 0.25s ease;
+}
+.prijzenlijst-nav a:hover { 
+	background:#fff !important;
+    color:#6A704C !important;
+    padding:.4rem .9rem;
+    border-radius:20px;
+    text-decoration:none; 
+}
+
+.prijzenlijst-items { 
+	list-style:none; 
+    padding:0; 
+    margin:0; 
+
+}
+
+.prijzenlijst-item { 
+	margin-bottom:1rem;
+   
+}
+
+.prijzenlijst-separator {
+	flex: 1;
+    border-bottom: 1px solid #6A704C;
+    margin: 0 0.5rem;
+    align-self: center;
+}
+.item-header { 
+	display:flex; 
+    justify-content:space-between; 
+    align-items:baseline; 
+    gap:.5rem; 
+}
+
+.item-naam, 
+.item-prijs { 
+    font-family: "Aboreto", Sans-serif !important;
+	color: var(--e-global-color-primary); 
+	font-size: 15px;
+}
+
+.item-gewicht {
+    font-family: "Aboreto", Sans-serif !important;
+	color: var(--e-global-color-primary); 
+	font-size: 10px;
+}
+
+.item-beschrijving { 
+    color: var(--e-global-color-text);
+    font-family: "Dosis", Sans-serif;
+    font-size: 12px;
+    font-weight: 500; 
+}
