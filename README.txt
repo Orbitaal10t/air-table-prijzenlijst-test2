@@ -1,5 +1,9 @@
 Hoe te gebruiken:
 
+===== Setup API Key =====
+1. Clone deze repository
+2. Kopieer `airtable-config.example.php` naar `airtable-config.php`
+3. Voeg je Airtable API key toe in `airtable-config.php`
 
 ===== PAGINA OPBOUW =====
 	[prijzenlijst_navigatie]
