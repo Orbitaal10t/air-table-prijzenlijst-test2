@@ -1,0 +1,33 @@
+# Composer
+/vendor/
+composer.phar
+composer.lock
+
+# Environment & secrets
+.env
+.env.local
+*.key
+*.pem
+airtable-config.php
+
+# Logs
+*.log
+/logs/
+
+# Cache
+/cache/
+/tmp/
+*.cache
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Uploads
+/uploads/
